@@ -1,0 +1,37 @@
+.tag-container {
+  color: rgb(202, 202, 202);
+  background-color: rgb(45, 95, 233);
+
+  border: 1px solid rgb(45, 95, 233);
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 0.5rem;
+  margin-right: 0.7rem;
+
+  min-width: 3.5rem;
+  min-height: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: default;
+  user-select: none;
+
+  position: relative;
+}
+
+.tag-close {
+  position: absolute;
+  top: -6px;
+  right: -9px;
+
+  border: none;
+  border-radius: 100%;
+  background: #4f005f;
+  color: rgb(202, 202, 202);
+}
+
+.tag-close:hover {
+  background-color: rgb(45, 95, 233);
+  cursor: pointer;
+}

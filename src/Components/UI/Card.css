@@ -1,0 +1,8 @@
+.card {
+  background: black;
+  border: 1px solid rgba(255, 255, 255, 0.164);
+  margin: 0rem auto;
+  width: 80%;
+  max-width: 500px;
+  min-height: 100px;
+}
